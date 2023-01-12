@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(images/bg-desktop.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main {
+    margin-left: 30px
+}
+
+.logo {
+    margin-top: 35px;
+    margin-left: 75px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.col-1 {
+    text-align: center;
+}
+
+.col-1 img {
+    margin-top: 50PX;
+    margin-left: 75px;
+    width: 650px;
+}
+
+.col-2 h2 {
+    margin-top: 13vh;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-align: left;
+    font-size: 2.5rem;
+    margin-bottom: 2vh;
+    margin-left: 10vh;
+}
+
+.col-2 p {
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(232, 232, 232);
+    text-align: left;
+    font-size: 1.1rem;
+    font-weight: 400;
+    width: 80vh;
+    line-height: 4vh;
+    margin-left: 10vh;
+    margin-bottom: 6vh;
+}
+
+.col-2 a {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: white;
+    color: hsl(257, 40%, 49%);
+    border-radius: 25px;
+    padding: 15px 50px;
+    margin-left: 10vh;
+    font-size: 1rem;
+    border: hsl(257, 40%, 49%) 1px solid;
+    -webkit-box-shadow: 0px 14px 32px -14px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 14px 32px -14px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 14px 32px -14px rgba(0, 0, 0, 0.75);
+}
+
+footer {
+    text-align: right;
+    margin-left: 100px;
+}
+
+footer a {
+    filter: invert(100%);
+}
+
+footer a img {
+    width: 2.4rem;
+    margin: 0 10px;
+}
+
+.icon {
+    margin-right: 120px;
+}
