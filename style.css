@@ -13,9 +13,7 @@ body {
     background-repeat: no-repeat;
 }
 
-.main {
-    margin-left: 30px
-}
+
 
 .logo {
     margin-top: 35px;
@@ -73,12 +71,11 @@ body {
     -moz-box-shadow: 0px 14px 32px -14px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 14px 32px -14px rgba(0, 0, 0, 0.75);
 }
-
-footer {
-    text-align: right;
-    margin-left: 100px;
+.main, footer{
+max-width:1440px;
+width: 80%;
+margin: 0 auto;
 }
-
 footer a {
     filter: invert(100%);
 }
